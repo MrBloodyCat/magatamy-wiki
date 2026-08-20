@@ -1,0 +1,35 @@
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0f141c;
+  --md-default-bg-color--light: #161f2e;
+  --md-default-fg-color: #94a3b8;
+  --md-typeset-a-color: #38bdf8;
+}
+
+.md-header {
+  background-color: #0f141c !important;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.md-tabs {
+  background-color: #161f2e !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.md-typeset a:hover {
+  color: #7dd3fc;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+}
+
+.md-typeset pre > code {
+  background-color: #0b0f17 !important;
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 6px;
+  color: #34d399 !important;
+}
+
+.md-nav__item--active > .md-nav__link {
+  color: #38bdf8 !important;
+  background-color: rgba(56, 189, 248, 0.08);
+  border-radius: 4px;
+}
