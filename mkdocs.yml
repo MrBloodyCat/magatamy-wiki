@@ -1,0 +1,54 @@
+site_name: Magatamy Wiki
+site_url: https://wiki.magatamy.com
+repo_url: https://github.com/MrBloodyCat/magatamy-wiki
+repo_name: magatamy-wiki
+
+plugins:
+  - search
+  - glightbox
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - announce.dismiss
+  palette:
+    scheme: slate
+    primary: custom
+    accent: teal
+  font:
+    text: Inter
+    code: Fira Code
+
+extra:
+  announce: "🚀 Это гайд по Серверу Magatamy!"
+
+extra_css:
+  - stylesheets/space.css
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Основное:
+    - Заявки: main/for-start.md
+  - Основное-2:
+    - Заявки-1: main/for-start-1.md
+    - Заявки-2: main/for-start-2.md
+
